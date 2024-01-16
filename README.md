@@ -5,8 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## This project is connected to an API. Here are steps to connect to the API.
 
 1. Run API.Contacts project and get the port where it runs.
-2. In this project go to .env file and replace the port using the API port.
-3. Start this project by `npm run start`
+2. In this project, open .env file and look for REACT_APP_API_BASE_URL variable
+3. Replace the port of the REACT_APP_API_BASE_URL with the API port.
+   EX: http://localhost:5038/api -> `5038` is the port.
+4. Start this project by `npm run start`
 
 ## Available Scripts
 
